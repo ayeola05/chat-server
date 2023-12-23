@@ -12,7 +12,7 @@ import { Server, Socket } from 'socket.io';
 
 @WebSocketGateway({
   cors: {
-    origin: '*',
+    origin: 'https://chat-client-cem.pages.dev/',
   },
 })
 export class MessagesGateway {
